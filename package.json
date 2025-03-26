@@ -35,6 +35,7 @@
     "BUG_VERSIONS.json"
   ],
   "scripts": {
+    "serve": "cd components-element && npm run serve",
     "api-collection": "antd-tools run api-collection",
     "authors": "tsx scripts/generate-authors.ts",
     "legacy_build": "npm run compile && NODE_OPTIONS='--max-old-space-size=4096' npm run dist",
